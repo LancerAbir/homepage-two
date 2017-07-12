@@ -1,0 +1,64 @@
+.hero-area {
+    background-image:url(../img/hero-bg-home-2_02.jpg);
+    background-color: #2a9df8;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.box-btn {background-color: #06d6a0;}
+
+.hero-content {
+    padding: 100px 0;
+}
+.hero-content h1, .hero-content {
+    color: #fff;
+}
+.hero-content h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.hero-form {
+    background-color: #fff;
+    padding: 45px 30px;
+}
+.hero-title h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.hero-title {
+    margin-bottom: 60px;
+    text-align: center;
+}
+.hero-form-wrapper {
+    text-align: left;
+    width: 100%;
+}
+.hero-form-wrapper input[type="submit"] {
+    background-color: #06d6a0;
+    display: block;
+    margin: 50px auto 0;
+    width: 200px;
+}
+.hero-form-wrapper input[type="text"], input[type="email"], input[type="url"] {
+    width: 100%;
+}
+.hero-form {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 45px 30px;
+  position: relative;
+  z-index: 1;
+}
+.hero-form::after {
+    background-color: #fff;
+    border-radius: 5px;
+    content: "";
+    height: 100%;
+    left: 8px;
+    opacity: 0.2;
+    position: absolute;
+    top: 8px;
+    width: 100%;
+    z-index: -1;
+}
